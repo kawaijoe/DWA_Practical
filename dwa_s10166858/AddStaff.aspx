@@ -17,7 +17,7 @@
             <td>
                 <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Please specify a name"
-                    Display="Dynamic" ControlToValidate="txtName"></asp:RequiredFieldValidator>
+                    Display="Dynamic" ControlToValidate="txtName" CssClass="alert-danger"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -39,9 +39,9 @@
                 <asp:TextBox ID="txtSalary" runat="server" ControlToValidate="txtSalary"></asp:TextBox>
                 <asp:CompareValidator ID="covSalary" runat="server" Operator="DataTypeCheck"
                     ErrorMessage="Please specify a valid salary" Display="Dynamic" Type="Currency"
-                    ControlToValidate="txtSalary"></asp:CompareValidator>
+                    ControlToValidate="txtSalary" CssClass="alert-danger"></asp:CompareValidator>
                 <asp:RangeValidator ID="ravSalary" runat="server" ErrorMessage="Please specify between 1 to 10000"
-                    ControlToValidate="txtSalary" MaximumValue="10000" MinimumValue="1" Type="Currency"></asp:RangeValidator>
+                    ControlToValidate="txtSalary" MaximumValue="10000" MinimumValue="1" Type="Currency" CssClass="alert-danger"></asp:RangeValidator>
             </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@
                 <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                 <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Please specify a valid email"
                     ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail"
-                    Display="Dynamic"></asp:RegularExpressionValidator>
+                    Display="Dynamic" CssClass="alert-danger"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
