@@ -103,13 +103,13 @@ namespace dwa_s10166858 {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// ddlNationality control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlNationality;
         
         /// <summary>
         /// chkFullTime control.

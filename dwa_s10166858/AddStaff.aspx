@@ -10,7 +10,7 @@
     <table cellpadding="0" cellspacing="0" class="nav-justified">
         <tr>
             <td class="auto-style1">&nbsp;</td>
-            <td><b>dd Staff Record</b></td>
+            <td><b>Add Staff Record</b></td>
         </tr>
         <tr>
             <td class="auto-style1">Name</td>
@@ -41,7 +41,7 @@
                     ErrorMessage="Please specify a valid salary" Display="Dynamic" Type="Currency"
                     ControlToValidate="txtSalary"></asp:CompareValidator>
                 <asp:RangeValidator ID="ravSalary" runat="server" ErrorMessage="Please specify between 1 to 10000"
-                    ControlToValidate="txtSalary" MaximumValue="10000" MinimumValue="1"></asp:RangeValidator>
+                    ControlToValidate="txtSalary" MaximumValue="10000" MinimumValue="1" Type="Currency"></asp:RangeValidator>
             </td>
         </tr>
         <tr>
@@ -49,19 +49,14 @@
             <td>
                 <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                 <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Please specify a valid email"
-                    ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="revEmail"
+                    ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail"
                     Display="Dynamic"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">Nationality</td>
             <td>
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>Singapore</asp:ListItem>
-                    <asp:ListItem>Malaysia</asp:ListItem>
-                    <asp:ListItem>Indonesia</asp:ListItem>
-                    <asp:ListItem>China</asp:ListItem>
-                </asp:DropDownList>
+                <asp:DropDownList ID="ddlNationality" runat="server"></asp:DropDownList>
             </td>
         </tr>
         <tr>
