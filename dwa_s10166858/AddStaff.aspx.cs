@@ -22,17 +22,17 @@ namespace dwa_s10166858 {
                 string strValues;
 
                 // retrieve the inputs
-                strValues = "name=" + txtName.Text;
+                strValues = "name=" + Server.UrlEncode(txtName.Text);
 
                 if (radMale.Checked == true)
                     strValues += "&gender=Male";
                 else
                     strValues += "&gender=Female";
 
-                strValues += "&dob=" + txtDOB.Text;
-                strValues += "&salary=" + txtSalary.Text;
-                strValues += "&email=" + txtEmail.Text;
-                strValues += "&nationality=" + ddlNationality.SelectedValue;
+                strValues += "&dob=" + Server.UrlEncode(txtDOB.Text);
+                strValues += "&salary=" + Server.UrlEncode(txtSalary.Text);
+                strValues += "&email=" + Server.UrlEncode(txtEmail.Text);
+                strValues += "&nationality=" + Server.UrlEncode(ddlNationality.SelectedValue);
 
                 if (chkFullTime.Checked == true)
                     strValues += "&fulltime=yes";
@@ -40,7 +40,7 @@ namespace dwa_s10166858 {
                     strValues += "&fulltime=no";
 
                 // display the values
-                lblValues.Text = strValues;
+                Response.Redirect("ConfirmAddStaff.aspx?" + Server.UrlEncode(strValues));
             }
         }
     }

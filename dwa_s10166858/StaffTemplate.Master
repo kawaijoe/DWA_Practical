@@ -33,7 +33,9 @@
             <!-- 2nd row -->
             <div class="row">
                 <div class="col-sm-12">
-
+                    Welcome, 
+                    <asp:Label ID="lblLoginID" runat="server" Text=""></asp:Label>. 
+                    You have logged in since <asp:Label ID="lblLoginTime" runat="server" Text=""></asp:Label>.
                 </div>
             </div>
 
@@ -49,7 +51,7 @@
             <!-- 4th row -->
             <div class="row">
                 <div class="col-sm-12">
-
+                    There are currently <asp:Label ID="lblCurrentUsers" runat="server" Text=""></asp:Label> users.
                 </div>
             </div>
         </div>

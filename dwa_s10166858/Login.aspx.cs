@@ -5,12 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace dwa_s1234567
-{
-    public partial class Login : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+namespace dwa_s1234567 {
+    public partial class Login : System.Web.UI.Page {
+        protected void Page_Load(object sender, EventArgs e) {
 
         }
 
@@ -33,7 +30,7 @@ namespace dwa_s1234567
 
                 Session["LoginID"] = loginID;
                 Session["LoggedInTime"] = DateTime.Now.ToString();
-                // redirect user to Main.aspx page
+                // Redirect user to Main.aspx page
                 Response.Redirect("Main.aspx");
             } else {
                 // Display error message

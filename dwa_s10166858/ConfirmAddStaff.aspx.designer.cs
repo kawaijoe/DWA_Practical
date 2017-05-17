@@ -10,69 +10,78 @@
 namespace dwa_s10166858 {
     
     
-    public partial class StaffTemplate {
+    public partial class ConfirmAddStaff {
         
         /// <summary>
-        /// head control.
+        /// lblName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label lblName;
         
         /// <summary>
-        /// form1 control.
+        /// lblGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label lblGender;
         
         /// <summary>
-        /// Menu control.
+        /// lblDOB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::dwa_s10166858.Menu Menu;
+        protected global::System.Web.UI.WebControls.Label lblDOB;
         
         /// <summary>
-        /// lblLoginID control.
+        /// lblSalary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLoginID;
+        protected global::System.Web.UI.WebControls.Label lblSalary;
         
         /// <summary>
-        /// lblLoginTime control.
+        /// lblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLoginTime;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// lblNationality control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Label lblNationality;
         
         /// <summary>
-        /// lblCurrentUsers control.
+        /// lblIsFullTimeStaff control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCurrentUsers;
+        protected global::System.Web.UI.WebControls.Label lblIsFullTimeStaff;
+        
+        /// <summary>
+        /// BtnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnSubmit;
     }
 }

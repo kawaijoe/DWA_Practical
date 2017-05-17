@@ -95,12 +95,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddStaff.aspx" />
+    <Content Include="ConfirmAddStaff.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="FineCalculator.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
     <Content Include="Main.aspx" />
     <Content Include="Menu.ascx" />
     <Content Include="packages.config" />
@@ -147,12 +149,22 @@
     <Compile Include="AddStaff.aspx.designer.cs">
       <DependentUpon>AddStaff.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ConfirmAddStaff.aspx.cs">
+      <DependentUpon>ConfirmAddStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmAddStaff.aspx.designer.cs">
+      <DependentUpon>ConfirmAddStaff.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FineCalculator.aspx.cs">
       <DependentUpon>FineCalculator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FineCalculator.aspx.designer.cs">
       <DependentUpon>FineCalculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -183,6 +195,7 @@
     <Compile Include="RentalCalculator.aspx.designer.cs">
       <DependentUpon>RentalCalculator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Utility.cs" />
     <Compile Include="StaffTemplate.Master.cs">
       <DependentUpon>StaffTemplate.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

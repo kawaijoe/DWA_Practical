@@ -25,7 +25,7 @@
                 <li><a href="FineCalculator.aspx">Fine Calculator</a></li>
             </ul>
             <!-- A Web Form Control button for logging out user -->
-            <asp:Button ID="btnLogOut" runat="server" Text="Log Out" CssClass="btn btn-link navbar-btn navbar-right" />
+            <asp:Button ID="btnLogOut" runat="server" Text="Log Out" CssClass="btn btn-link navbar-btn navbar-right" OnClick="btnLogOut_Click" />
         </div>
     </div>
 </nav>
