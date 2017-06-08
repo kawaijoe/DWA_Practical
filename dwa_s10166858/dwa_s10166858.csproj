@@ -196,6 +196,7 @@
     <Compile Include="RentalCalculator.aspx.designer.cs">
       <DependentUpon>RentalCalculator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Staff.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="StaffTemplate.Master.cs">
       <DependentUpon>StaffTemplate.Master</DependentUpon>

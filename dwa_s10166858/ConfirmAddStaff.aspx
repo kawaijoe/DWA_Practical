@@ -66,9 +66,11 @@
         </tr>
         <tr>
             <td class="auto-style1">
-                <asp:Button ID="BtnSubmit" runat="server" Text="Submit" />
+                <asp:Button ID="BtnSubmit" runat="server" Text="Submit" OnClick="BtnSubmit_Click" />
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
+            </td>
         </tr>
     </table>
 </asp:Content>

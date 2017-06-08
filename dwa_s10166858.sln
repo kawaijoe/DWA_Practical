@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dwa_s10166858", "dwa_s10166858\dwa_s10166858.csproj", "{3AB658E5-1752-418A-89CF-979FC174DB26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dwa_s10166858.Tests", "dwa_s10166858.Tests\dwa_s10166858.Tests.csproj", "{638AF5C0-C010-46B2-B719-FEBBDED12DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Code", "App_Code", "{DB29ECA6-C079-46DA-AEC5-003A261B4E10}"
+	ProjectSection(SolutionItems) = preProject
+		dwa_s10166858\Staff.cs = dwa_s10166858\Staff.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -40,7 +40,7 @@ namespace dwa_s10166858 {
                     strValues += "&fulltime=no";
 
                 // display the values
-                Response.Redirect("ConfirmAddStaff.aspx?" + Server.UrlEncode(strValues));
+                Response.Redirect("ConfirmAddStaff.aspx?" + strValues);
             }
         }
     }
