@@ -7,7 +7,6 @@ using System.Web;
 
 namespace dwa_s10166858 {
     public class Staff {
-
         public int staffId { get; set; }
         public string name { get; set; }
         public string gender { get; set; }

@@ -139,6 +139,7 @@
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\nplogo.gif" />
     <Content Include="Login.aspx" />
+    <Content Include="ViewBranch.aspx" />
     <Content Include="ViewStaff.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -150,6 +151,7 @@
     <Compile Include="AddStaff.aspx.designer.cs">
       <DependentUpon>AddStaff.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Branch.cs" />
     <Compile Include="ConfirmAddStaff.aspx.cs">
       <DependentUpon>ConfirmAddStaff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,6 +206,13 @@
     </Compile>
     <Compile Include="StaffTemplate.Master.designer.cs">
       <DependentUpon>StaffTemplate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBranch.aspx.cs">
+      <DependentUpon>ViewBranch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewBranch.aspx.designer.cs">
+      <DependentUpon>ViewBranch.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewStaff.aspx.cs">
       <DependentUpon>ViewStaff.aspx</DependentUpon>

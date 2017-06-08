@@ -7,10 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dwa_s10166858", "dwa_s10166
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dwa_s10166858.Tests", "dwa_s10166858.Tests\dwa_s10166858.Tests.csproj", "{638AF5C0-C010-46B2-B719-FEBBDED12DDD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Code", "App_Code", "{DB29ECA6-C079-46DA-AEC5-003A261B4E10}"
-	ProjectSection(SolutionItems) = preProject
-		dwa_s10166858\Staff.cs = dwa_s10166858\Staff.cs
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A16ABF84-B332-4E6D-9507-7A08188163D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
